@@ -1,0 +1,22 @@
+{
+  "name": "js-hacker-rank-solutions",
+  "version": "1.0.0",
+  "description": "Hacker rank solutions in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdvianna/js-hacker-rank-solutions.git"
+  },
+  "author": "hdvianna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdvianna/js-hacker-rank-solutions/issues"
+  },
+  "homepage": "https://github.com/hdvianna/js-hacker-rank-solutions#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
