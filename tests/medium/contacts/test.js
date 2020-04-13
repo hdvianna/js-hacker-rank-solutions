@@ -1,4 +1,4 @@
-const Contacts = require('../../src/medium/contacts/solution');
+const Contacts = require('../../../src/medium/contacts/solution');
 
 test('Monty Contacts #1', () => {
     let contacts = Contacts();
