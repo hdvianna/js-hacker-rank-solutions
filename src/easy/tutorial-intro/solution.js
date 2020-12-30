@@ -6,7 +6,7 @@ function TutorialIntro(arr) {
             return searchPartition(0, len - 1);
             function searchPartition(start, end) {
                 let index =  Math.floor(((end+1) + start) /2) ;
-                if (end === -1 || start > end) {
+                if (start > end) {
                     return -1;
                 }
                 if (arr[index] === V) {

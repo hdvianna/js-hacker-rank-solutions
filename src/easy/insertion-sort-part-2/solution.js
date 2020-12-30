@@ -1,11 +1,10 @@
 //https://www.hackerrank.com/challenges/insertionsort2/problem
 function InsertionSort(array) {
     let len = array.length;
-    let i=1;
+    let end=1;
     return {
         step() {
-            if (i < len) {
-                let end = i;
+            if (end < len) {
                 let inserted = false;
                 let item = array[end];
                 let pointer = end-1;
@@ -18,7 +17,7 @@ function InsertionSort(array) {
                     }
                     pointer--;
                 }
-                i++;
+                end++;
                 return array;
             } else {
                 return null;
